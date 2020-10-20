@@ -1,10 +1,10 @@
-.link__opacity {
+.opacity {
     opacity: 1;
     transition-duration: 0.5s;
     transition-timing-function: ease;
   }
    
-.link__opacity:hover {
+.opacity:hover {
     opacity: 0.5;
 
   }
