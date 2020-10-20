@@ -1,0 +1,10 @@
+.table_theme_dark{
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 3;
+  width: 1100px;
+  align-items: flex-start;
+}
