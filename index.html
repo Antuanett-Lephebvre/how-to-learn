@@ -11,10 +11,10 @@
 </head>
 <body class="page">
  <header class="header">
-  <a class="opacity"><img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум"></a>
+  <a href="#" class="opacity"><img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум"></a>
   <h1 class="header__title">Научиться учиться</h1>
   <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-  <a class="header__link opacity">Узнать &rarr;</a></p>
+  <a href="#" class="header__link opacity">Узнать &rarr;</a></p>
   <img class="header__main-illustration" src="./images/header-image.png" alt="Двоечник с картины Решетникова">
   <div class="header__square-pic rotation"></div>
  </header>
@@ -65,19 +65,17 @@
   <div class="video__iframes">
    <iframe 
     class="video__iframe"
-    width="515px"
-    height="316px"
-    src="https://www.youtube.com/embed/watch?v=arj7oStGLkU"
-    frameborder="0"
+    id="ytplayer" 
+    type="text/html" 
+    src="https://www.youtube.com/embed/arj7oStGLkU"
     allowfullscreen>
     Здесь должно быть видео, но ваш браузер не поддерживает iframe
    </iframe>
    <iframe 
     class="video__iframe"
-    width="515px"
-    height="316px"
-    src="https://www.youtube.com/embed/watch?v=5MgBikgcWnY" 
-    frameborder="0"
+    id="ytplayer" 
+    type="text/html"
+    src="https://www.youtube.com/embed/5MgBikgcWnY"
     allowfullscreen>
     Здесь должно быть видео, но ваш браузер не поддерживает iframe
    </iframe>
@@ -139,14 +137,14 @@
   </section>
   <section class="khan">
    <div class="khan__container">
-    <h3 class="khan__author">Салман Хан</h3>
+    <p class="khan__author">Салман Хан</p>
     <h2 class="khan__title">Весь мир - школа</h2>
     <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу "Весь мир - школа" нужно прочитать всем, кто занимается образованием - так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
     <p class="khan__quote-author">Джордж Лукас</p>
-    <p class="khan__quote-author">Кинорежиссер, продюсер</p>
+    <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
     <div class="khan__book-container">
       <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Весь мир-школа, Салман Хан">
-      <a class="opacity"><p class="khan__buy-link">Купить книгу &rarr;</p></a>
+      <a href="#" class="opacity khan__buy-link">Купить книгу &rarr;</a>
     </div>
   </div>
   </section>
@@ -200,12 +198,12 @@
   <section class="resources">
    <h2 class="section-title">Полезные ресурсы</h2>
    <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-   <div class="resources__logo-zone">
-    <a class="opacity"><img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип Arzamas"></a>
-    <a class="opacity"><img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип N+1"></a>
-    <a class="opacity"><img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип Strelka"></a>
-    <a class="opacity"><img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип Полка"></a>
-   </div>
+   <ul class="resources__logo-zone">
+    <li href="#" class="opacity"><img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип Arzamas"></li>
+    <li href="#" class="opacity"><img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип N+1"></li>
+    <li href="#" class="opacity"><img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип Strelka"></li>
+    <li href="#" class="opacity"><img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип Полка"></li>
+   </ul>
   </section>
   <footer class="footer">
    <div class="footer__columns">
@@ -216,28 +214,28 @@
     <nav class="footer__column footer__column_content_info">
      <h3 class="footer__column-heading">О Практикуме</h3>
      <ul class="footer__column-links">
-      <li class="footer__list-item"><a class="footer__column-link opacity">Главная</a></li>
-      <li class="footer__list-item"><a class="footer__column-link opacity">Концепция</a></li>
-      <li class="footer__list-item"><a class="footer__column-link opacity">Наставники</a></li>
+      <li class="footer__list-item" href="#" class="footer__column-link opacity">Главная</li>
+      <li class="footer__list-item" href="#" class="footer__column-link opacity">Концепция</li>
+      <li class="footer__list-item" href="#" class="footer__column-link opacity">Наставники</li>
      </ul>
     </nav>
     <nav class="footer__column footer__column_content_social">
      <h3 class="footer__column-heading">Соцсети</h3>
      <ul class="footer__column-links">
       <li class="footer__list-item"> 
-       <a class="footer__column-link opacity">
+       <a href="#" class="footer__column-link opacity">
         <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбук">
         Facebook
        </a>
       </li>
       <li class="footer__list-item">
-        <a class="footer__column-link opacity">
+        <a href="#" class="footer__column-link opacity">
          <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">
          ВКонтакте
         </a>
        </li>
        <li class="footer__list-item"> 
-        <a class="footer__column-link opacity">
+        <a href="#" class="footer__column-link opacity">
          <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграм">
          Instagram
         </a>
